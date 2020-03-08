@@ -6,17 +6,23 @@ Project title: HomeWork 2
 
 Motivation: the motivation behind this project is to learn how to code  properly and grow as a developer.
 
-Code Style. I used HtML CSS, and Bootstrap for this project.
+Code Style: I used HtML CSS, and Bootstrap for this project.
 
-Screen shots. Here are some screen shots of my project:
+Screen shots: Here are some screen shots of my project:
 
-<img src="Screenshot_2020-03-07 Brian Levin Portfolio(1).png">
+
  Screenshot_2020-03-07 Brian Levin Portfolio(1).png
 Screenshot_2020-03-07 Contact(1).png
 Screenshot_2020-03-07 Portfolio.jpg
 
 Tec used. It was built with visual studio code  2
-Commits in the project:
+
+About project: The purpose of this project was to build a portfolio website. We had  create 3 seperate html elements that link together including an: About me page, Contact page, and a Portfolio page. I proceeded to design the page using boostrap, adding html elements, and styling with css.
+
+What I need to focus on for next project:  I need to commit more often next project. The one big commit turned out to be a mess and even crashed my terminal. I also need to learn how to add screen shots to my read me and other styling aspects. Also  want to learn how to make the footer sticky so it stays the same length when you minimise the page. 
+
+
+Commits in the project: Here is the big commit I made to this project before my terminal crashed:
 
 .
 
