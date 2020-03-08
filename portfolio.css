@@ -1,0 +1,25 @@
+
+/*  I took the page header class and added a top margin to help lower the title from the navbar.*/
+
+.page-header {
+    margin-top: 30px;
+}
+
+ /* made this class to show the dividing line between the h1 tag and the rest of the document for style purposes.*/
+
+ h1{
+    border-bottom: 1px solid;
+}
+
+/* I created this class to visibly space out  my h1 title from the images and the rest of the document. */
+
+.seperate {      
+    margin-top: 30px;
+}
+
+/* I created this class to make my footer sticky and  stay on the bottom of the page.*/
+
+#sticky-footer{   
+    flex-shrink: none;
+    margin-top: 152px;
+}

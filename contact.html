@@ -9,15 +9,14 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <title>Brian Levin Portfolio</title>
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact</title>
     <!--Tab title-->
 </head>
 
 <body>
-    <!-- retrieved a  nav-bar  from the bootstrap framework-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <!-- Changed the text from "Navbar" to " Brian Levin"-->
+        <!-- I copied and pasted my navbar from the index.html file. All my documented commented  additions and changes within the Navbar are on the index.html file.-->
         <a class="navbar-brand" href="#">Brian Levin</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,29 +26,23 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <!-- Added a link to go directly  to the "About" page. Also changed the text from "Home" to "About.-->
                     <a class="nav-link"
                         href="file:///Users/brianlevin/repos/upenn-phi-fsf-pt-02-2020-u-c/02-CSS-Bootstrap/02-Homework/index.html">About
-                    </a>
-                    <span class="sr-only">(current)</span></a>
+                        <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <!--Added a link to go directly to the "Contact" page. Also changed the text from "Link" to "Contact"-->
                     <a class="nav-link"
                         href="file:///Users/brianlevin/repos/upenn-phi-fsf-pt-02-2020-u-c/02-CSS-Bootstrap/02-Homework/contact.html">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <!-- Copy and pasted my "Contact" li class to create li "Portfolio" class. Also changed the text from "Contact" to "Portfolio."-->
                     <a class="nav-link"
                         href="file:///Users/brianlevin/repos/upenn-phi-fsf-pt-02-2020-u-c/02-CSS-Bootstrap/02-Homework/portfolio.html">Portfolio</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <!-- Kepted the Drop Down class and added "About Me", Contact, and "Portfolio" to the Drop Down menue. -->
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Dropdown
                     </a>
-                    <!--I added links to the Drop Down menue which navigate to the listed pages.-->
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item"
                             href="file:///Users/brianlevin/repos/upenn-phi-fsf-pt-02-2020-u-c/02-CSS-Bootstrap/02-Homework/index.html#">About
@@ -68,45 +61,58 @@
             </form>
         </div>
     </nav>
-    <!--  I added a "contaier" class to wrap all my classes and tags into one organized code unit for the rest of the page.-->
+
     <div class="container">
+        <!-- I made a container class to help wrap all my code into one organized unit-->
         <div class="row">
-            <!-- I created a row within the container to help space out the code into  specific spaced out rows within the page.-->
+            <!-- I created the row to help organize my code into a row on the page -->
             <div class="col-sm-8">
-                <!-- I created the column in the page where the text and aligniing would only take 2/3 of the page for design purposes.-->
+                <!-- I created this Column class  to help put align my tags and classes within 2/3 of the page. -->
                 <div class="page-header">
-                    <!-- I created the page header to sigify  that the h1 class will be the header of the page.-->
-                    <h1>About Me</h1> <!-- Added About Me text to show the start of my paragraph.-->
+                    <!--created the header to sigify the h1 tag would be on the top of the page-->
+
+                    <h1>Contact</h1> <!-- Title of the page.-->
                 </div>
-
                 <div class="row">
-                    <!-- created another row  to organize a new section of the page.-->
-                    <div class="col-sm-3">
-                        <!-- I created the columm to space out the image on the page. -->
-                        <div class="seperate">
-                            <!-- created the "seperate" class to help space out and show the divideing  line between the "About Me" section and the "img" and "p" sections. "  -->
-                            <img src="images1/photo test.jpeg" alt="image1" class="img-thumbnail">
-                            <!-- Copy and pased an Image I found online into my Images file and added an Alt class. -->
-                        </div>
-                    </div>
-                    <div class=col-sm-9>
-                        <!-- I created this column to help wrap up my "p" tags within the container.-->
-                        <p>
-                            My name is Brian Levin.
-                        </p>
+                    <!-- created a new row to help divide my next sections on the page-->
+                    <div class="col-sm-12">
+                        <!-- created this Column so my classes and text and can take up one full Colum on the page.-->
+
+                        <!-- Copy and pasted from Bootstrap  one of the forms on the page -->
+                        <form>
+                            <div class="form-group">
+                                <!--Copy and pasted  this "formgroup class" twice and added "Name" and "Email address" to the seperate labels.-->
+                                <label for="exampleFormControlInput1">Name</label>
+                                <input type="Name" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Name">
+                                <!-- I deleted the "example select" form and the "example multiple select" form from the form class since it didnt make sense for my portfolio project.  -->
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">Email address</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Email">
+                            </div>
 
 
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Message</label>
+                                <!--I changed this form from "Textera" to "Message" to help show where to personally write to me.-->
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                    placeholder="Message"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                            <!-- I took this "submit" button from a differant form and added it to this form.-->
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- I created the sticky footer ID to show that this is the bottom of the page. I did my best to make it "sticky"-->
         <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+            <!-- I created a footer id to help show the bottom of the page. I tried making it sticky but i'm not sure if I did it correctly.-->
             <div class="container text-center">
                 <small>Copyright &copy; Brian's Portfolio</small>
             </div>
         </footer>
-
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
