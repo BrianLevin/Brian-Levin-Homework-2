@@ -21,7 +21,7 @@ p {
 /* I created this title to visibly space out my h1 title from the image and the rest of the document tags. */
 
 .seperate {
-    margin-top: 10px
+    margin-top: 10px;
 }
 
 /* I created this footer to tag to show that this is the end of the document. I tried styling it to make it sticky.*/
@@ -30,4 +30,8 @@ p {
     flex-shrink: none;
     margin-top: 152px;
     
+}
+.navbar{
+background-color: Blue;
+
 }
