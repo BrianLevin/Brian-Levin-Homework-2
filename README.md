@@ -4,7 +4,7 @@
 ![](images1/PortfolioSS.png)
 
 
-This is My portfolio highlighting some of my completed projects.
+This is my portfolio highlighting some of my completed projects.
 
 ## Libraries and Frameworks
 
