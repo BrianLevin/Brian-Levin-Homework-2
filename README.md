@@ -6,7 +6,7 @@
 
 This is my portfolio highlighting some of my completed projects.
 
-## Libraries and Frameworks
+## Libraries and Frameworks:
 
  - Html
  - CSS
