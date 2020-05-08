@@ -46,3 +46,11 @@ p {
 .seperate {      
     margin-top: 30px;
 }
+
+body {
+    /* Typography */
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  
+    /* Visual */
+    background-image: url("images1/photo 3.jpeg");
+  }
