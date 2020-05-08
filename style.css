@@ -62,3 +62,9 @@ body {
     background-image: url("images1/photo 3.jpeg");
   }
 
+.block-header {
+  /* Typography */
+  
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+}
