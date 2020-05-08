@@ -1,3 +1,4 @@
+
 /*  I took the page header class and added a top margin to help lower the title from the navbar.*/
 
 .page-header{ 
@@ -33,7 +34,6 @@ p {
 
    /*position: absolute; 
   bottom: 0; 
-
    /*Box-model */ 
   /*width: 100%; 
   height: 40px;*/ 
@@ -60,10 +60,5 @@ body {
   
     /* Visual */
     background-image: url("images1/photo 3.jpeg");
-  }
-
-/*
-  main {
-    margin: 80px 0;
   }
 
