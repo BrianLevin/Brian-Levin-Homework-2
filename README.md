@@ -1,23 +1,23 @@
 
+# Portfolio
 
 ![](images1/PortfolioSS.png)
 
-PortFolio
 
 This is My portfolio highlighting some of my completed projects.
 
-. Libraries and Framework:
-. Html
-. Css
-. Bootstrap
+## Libraries and Frameworks
+
+ - Html
+ - CSS
+ - BootStrap
 
 
+ ## Process:
+I used html, css, and bootstrap to write  and style the pages and used images from my previous projects.
 
-Process:
-I used html, css, and bootstrap to write  and style the page and used images from my previous projects.
 
-
-Deployed Application:
+ ## Deployed Application:
 
 https://brianlevin.github.io/
 
