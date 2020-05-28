@@ -28,15 +28,10 @@ p {
 /* I created this footer to tag to show that this is the end of the document. I tried styling it to make it sticky.*/
 
 #sticky-footer {
+    
     flex-shrink: none;
-    margin-top: 200px;
+    margin-top: 200px;    
 
-
-   /*position: absolute; 
-  bottom: 0; 
-   /*Box-model */ 
-  /*width: 100%; 
-  height: 40px;*/ 
 }
 
 #logo {
