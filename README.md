@@ -21,3 +21,7 @@ I used html, css, and bootstrap to write  and style the pages and used images fr
 
 https://brianlevin.github.io/
 
+## Email
+
+bml201095@gmail.com
+
