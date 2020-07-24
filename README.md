@@ -5,7 +5,7 @@
 
 This is my portfolio highlighting some of my completed projects. I have worked with a vareity of  frontend, backend, and full stack applications.
 
-## Click [here](https://brianlevin.github.io/ for the live app.
+## Click [here](https://brianlevin.github.io/) for the live app.
 
 This is my homepage on my portfolio:
 
